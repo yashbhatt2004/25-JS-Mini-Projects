@@ -1,0 +1,62 @@
+body{
+    height:97vh;
+    background: linear-gradient(320deg, rgba(188,34,195,1) 0%, rgba(253,202,45,1) 65%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    height:320px;
+    width:320px;
+    border:#28282B solid 7px;
+    border-radius: 50%;
+    position: relative;
+}
+.hand{
+    height:0px;
+    border:2px solid rgb(138 137 138);
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hour-hand{
+    width:15%;
+    left: 35%;
+}
+.minute-hand{
+    width: 32%;
+    left:18%;
+
+}
+.second-hand{
+    width: 45%;
+    left:5%;
+    border:2px solid rgb(36, 4, 142);
+}
+.meridiem{
+    margin:10px;
+    font-family:Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:rgb(36, 4, 142);
+}
+.timelapse {
+    background: linear-gradient(320deg, rgba(188,34,195,1) 0%, rgba(253,202,45,1) 65%);
+    border: 2px solid rgba(188,34,195,1); 
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    outline: none; 
+    margin: 10px;
+}
+.timelapse:hover {
+    background: linear-gradient(320deg,rgba(253,202,45,1) 0% , rgba(188,34,195,1) 65%); 
+    border-color: rgba(253,202,45,1); 
+}
