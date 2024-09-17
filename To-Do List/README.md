@@ -17,30 +17,29 @@ This is a To-Do List web application that allows users to manage their tasks by 
 
 ## Getting Started:
 
-1. Clone the repository:
+1. **Clone the repository**:
 ```bash
 git clone https://github.com/yashbhatt2004/todo-list-app.git
 ```
-2. Navigate to the project directory:
+2. **Navigate to the project directory**:
 ``` bash
 cd todo-list
 ```
-3. Open index.html in your preferred browser.
+3. **Open index.html in your preferred browser**.
 ```perl
 file:///path/to/drum-kit-project/index.html
 ```
 
 
 ## Tech Stack
-HTML5: For structuring the application.
-CSS3: For styling the application and ensuring a responsive design.
-JavaScript (ES6+): For functionality such as adding, completing, and deleting tasks.
-Installation
+* HTML5: For structuring the application.
+* CSS3: For styling the application and ensuring a responsive design.
+* JavaScript (ES6+): For functionality such as adding, completing, and deleting tasks.
 
 ## Contributing
 Feel free to contribute by adding new features or improving the existing ones. Open a pull request or submit an issue for any bugs or suggestions.
 
-License
+## License
 This project is licensed under the MIT License.
 
 Happy Coding!
