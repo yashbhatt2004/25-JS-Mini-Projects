@@ -1,0 +1,112 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(150deg,#7CB9E8 36%,#ffffff 100%);
+    color:#614051;
+}
+.jacques-francois-shadow-regular {
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+    text-align: center;
+}  
+header{
+    margin-top:20px;
+}
+.add-bar{
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    margin:15px auto;
+    width:40%;
+    border-radius: 20px;
+}
+.add-bar input{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    width:85%;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit ;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.add-bar button{
+    all: unset;
+    width:15%;
+    background-color: #c6c7c8;
+    border-bottom-right-radius: inherit;
+    border-top-right-radius: inherit;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+.add-bar button:hover{
+    background-color: #999b9d;
+    color:#901f59;
+}
+.task-box{
+display: flex;
+justify-content: space-evenly;
+}
+.pending{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-evenly;
+    height:70vh;
+    width:60%;
+    overflow:auto;
+    gap: min(2%, 20px); 
+}
+
+.pending-items{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    margin:5px 0px;
+    color: aliceblue;
+    width:45%;
+    padding: 0;
+    align-items: center;
+}
+.pending-items button{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #c6c7c8;
+    aspect-ratio: 1;
+}
+.pending-items p{
+    font-size: 1.75vw;
+    padding-left: 5px;
+    margin: 5px;
+}
+.completed{
+    display: flex;
+    flex-flow: column nowrap;
+    width:30%;
+    height:70vh;
+    overflow:auto;
+}
+
+.completed-items{
+    display: flex;
+    background-color: #dee2e6;
+    border: none;
+    border-radius: 10px;
+    margin:5px auto;
+    padding: 2px;
+    color: #000000;
+    width: 70%;
+}
+.completed-items button{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #c6c7c8;
+    aspect-ratio: 1;
+}
+.completed-items s{
+    font-size: 1.75vw;
+    padding-left: 5px;
+    margin: 5px;
+}
