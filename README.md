@@ -10,11 +10,13 @@ In a world where modern web development often leans on powerful frameworks, it's
 <li>Build practical and fun mini-projects that can be used as learning tools or for real-world problem solving.</li>
 <li>Avoid the use of external libraries or frameworks (No jQuery, React, etc.).</li>
 </ul>
+
 ## Projects
 Below is a list of the 25 projects that will be included in this repository:
 * Project 1: **CSS+JS Clock**
 * Project 2: **Task Manager**
 * Project 3: **Image Carousel**
+
 ## Getting Started
 You can either clone the entire repository or clone individual projects based on your interest. Follow the steps below:
 1. **Clone the repository**
