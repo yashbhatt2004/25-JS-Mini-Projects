@@ -1,0 +1,39 @@
+*{
+    background-color: #ededed;
+}
+.container{
+    position: relative;
+    left:20%;
+}
+input{
+    font-size: 4vh;
+    height:6vh;
+    width:25vw;
+    margin:5px;
+}
+li{
+    font-size: 3vh;
+    position: relative;
+    left:18%;
+    width: 54%;
+    list-style-type: none;
+    border: black 3px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(200 198 198);
+}
+
+.shade-1{
+    background-color: #e3dd54;
+}
+.shade-2{
+    background-color: #37bdff;
+}
+body{
+    overflow-x: hidden;
+}
+h3{
+    position: relative;
+    left:18%;
+}
